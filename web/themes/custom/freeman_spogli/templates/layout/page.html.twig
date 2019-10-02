@@ -44,9 +44,15 @@
 #}
 <div class="layout-container">
 
-  <header role="banner">
-    {{ page.header }}
-  </header>
+<!-- <header role="banner"> -->
+    <header class="fixed-top">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          {{ page.header }}
+        </div>
+      </nav>
+    </header>
+  <!-- </header> -->
 
   {{ page.primary_menu }}
   {{ page.secondary_menu }}
@@ -83,7 +89,12 @@
       <div class="container">
         <div class="row">
          <div class="col-12 col-md-12 col-lg-9 f-left">
-          {{ page.footer }}
+            <a href="https://www.linkedin.com/company/freeman-spogli-&-co." target="_blank" class="f-icon">
+              <img src="theme/custom/freeman-spogli/img/linkedin-logo.svg" alt="" width="15" height="15">
+            </a>
+          <span>
+            {{ page.footer }}
+          </span>
           </div>
            <div class="col-12 col-md-12 col-lg-3 f-right">
           {{ page.footer_right }}
