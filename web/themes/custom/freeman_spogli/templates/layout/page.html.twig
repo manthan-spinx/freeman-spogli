@@ -78,24 +78,20 @@
 
   </main>
 
-<div class="container">
-  <div class="row">
-  <div class="col-12 col-md-12 col-lg-9 f-left">
-    {% if page.footer %}
-      <footer role="contentinfo">
-        {{ page.footer }}
-      </footer>
-    {% endif %}
-  </div>
+  {% if page.footer %}
+    <footer role="contentinfo">
+      <div class="container">
+        <div class="row">
+         <div class="col-12 col-md-12 col-lg-9 f-left">
+          {{ page.footer }}
+          </div>
+           <div class="col-12 col-md-12 col-lg-3 f-right">
+          {{ page.footer_right }}
+          </div>
+        </div>
+      </div>
+    </footer>
+  {% endif %}
 
-  <div class="col-12 col-md-12 col-lg-3 f-right">
-    {% if page.footer_right %}
-      <footer role="contentinfo">
-        {{ page.footer_right }}
-      </footer>
-    {% endif %}
-  </div>
-
-  </div>
 </div>
-</div>{# /.layout-container #}
+{# /.layout-container #}

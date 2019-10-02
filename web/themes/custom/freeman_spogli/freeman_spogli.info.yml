@@ -16,3 +16,8 @@ regions:
   footer_right: 'Footer Right'
   page_top: 'Page top'
   page_bottom: 'Page bottom'
+
+
+
+libraries:
+    - freeman_spogli/global-styling

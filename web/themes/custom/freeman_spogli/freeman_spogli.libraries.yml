@@ -1,19 +1,6 @@
-framework:
+global-styling:
   css:
     theme:
       css/style.css: {}
-  js:
-  	js/app.js: {}
-
-
-#libraries file
-global-css:
-  css:
-    theme:
-      css/style.css: {}
-
-global-js:
   js:
     js/app.js: {}
-  dependencies:
-    - core/drupal
