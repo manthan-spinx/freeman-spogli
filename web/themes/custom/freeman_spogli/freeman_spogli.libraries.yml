@@ -1,8 +1,19 @@
-global-styling-and-scripts:
-version: 1.0
-	css:
-	theme:
-		# css/style.css: {}
+framework:
+  css:
+    theme:
+      css/style.css: {}
+  js:
+  	js/app.js: {}
 
-	js:
-		# js/bootstrap.min.js: {}
+
+#libraries file
+global-css:
+  css:
+    theme:
+      css/style.css: {}
+
+global-js:
+  js:
+    js/app.js: {}
+  dependencies:
+    - core/drupal

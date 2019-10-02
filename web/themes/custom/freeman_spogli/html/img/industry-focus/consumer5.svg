@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="49px" viewBox="0 0 75 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>F85260AE-DDB9-4B6D-8CED-5CC19EAE9700</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <polygon id="path-1" points="0.3905 0.546 62.6405 0.546 62.6405 41.3859 0.3905 41.3859"></polygon>
+    </defs>
+    <g id="industry-focus-copy-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-384.000000, -1217.000000)">
+        <g id="consumer5" transform="translate(384.000000, 1216.000000)">
+            <g id="Group-3" transform="translate(6.000000, 0.454000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M62.6095,5.0029 C62.6095,3.8199 62.1405,2.6869 61.3045,1.8509 C60.4685,1.0189 59.3365,0.5459 58.1565,0.5459 L4.8435,0.5459 C2.3825,0.5459 0.3905,2.5429 0.3905,5.0029 L0.3905,41.3859 L62.6405,41.3859 L62.6405,5.0029 L62.6095,5.0029 Z M57.4145,36.1869 L5.5865,36.1869 L5.5865,5.7459 L57.4105,5.7459 L57.4145,36.1869 Z" id="Fill-1" fill="#020303" mask="url(#mask-2)"></path>
+            </g>
+            <path d="M44.004,43.325 C44.121,43.555 44.184,43.813 44.184,44.075 C44.184,44.997 43.434,45.747 42.512,45.747 L32.488,45.747 C31.566,45.747 30.816,44.997 30.816,44.075 C30.816,43.813 30.879,43.555 30.996,43.325 L0,43.325 C0,46.707 3.047,49.454 6.801,49.454 L68.199,49.454 C71.949,49.454 75,46.707 75,43.325 L44.004,43.325 Z" id="Fill-4" fill="#020303"></path>
+        </g>
+    </g>
+</svg>
