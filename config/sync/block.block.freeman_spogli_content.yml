@@ -1,0 +1,22 @@
+uuid: 90651f3e-67b2-4f46-b20b-8832dab6c507
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - freeman_spogli
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: freeman_spogli_content
+theme: freeman_spogli
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

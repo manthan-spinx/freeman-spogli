@@ -1,0 +1,22 @@
+uuid: d112825d-ac13-46ec-982e-4efb8084c4d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - freeman_spogli
+_core:
+  default_config_hash: 8I8iACSa0sKO3k3jlvUG1ge52rfcKX7USJAQYnzuBgg
+id: freeman_spogli_help
+theme: freeman_spogli
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

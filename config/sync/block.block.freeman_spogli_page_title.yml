@@ -1,0 +1,20 @@
+uuid: 450359e1-4e84-4b58-914d-33b702ba3e64
+langcode: en
+status: true
+dependencies:
+  theme:
+    - freeman_spogli
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: freeman_spogli_page_title
+theme: freeman_spogli
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

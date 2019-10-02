@@ -1,0 +1,22 @@
+uuid: 1251af4f-af45-423d-ac7f-e57fd12ee4e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - freeman_spogli
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: freeman_spogli_messages
+theme: freeman_spogli
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

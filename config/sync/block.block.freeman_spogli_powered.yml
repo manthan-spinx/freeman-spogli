@@ -1,0 +1,22 @@
+uuid: e789f5cc-a467-4b0c-9335-e5c34ba94c89
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - freeman_spogli
+_core:
+  default_config_hash: jQQUUWN2Uxr5qZtc9zcJKBCxpKY8orN1u2HPqYYRQDI
+id: freeman_spogli_powered
+theme: freeman_spogli
+region: navigation
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }
